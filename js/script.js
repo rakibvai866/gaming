@@ -9,7 +9,7 @@ const low_hi = document.querySelector('.low_hi');
 let totalCount = 1;
 
 let randomNumber = Math.floor(Math.random()*100)+1;
-console.log(randomNumber);
+// console.log(randomNumber);
 
 sub_btn.onclick = function () {
     input_field_value = Number(input_field.value);
@@ -70,5 +70,5 @@ function restert() {
     input_field.value = ' ';
 
     randomNumber = Math.floor(Math.random()*100)+1;
-    console.log(randomNumber);
+//     console.log(randomNumber);
 }
